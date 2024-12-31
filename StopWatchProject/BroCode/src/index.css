@@ -1,0 +1,70 @@
+html, body {
+  margin:0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 77%)
+}
+
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px;
+}
+
+.display {
+  font-size: 5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: hsl(0, 69%, 82%);
+  text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.495);
+  margin-bottom: 20px;
+}
+
+.controls button{
+  font-size: 3rem;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.start {
+  background-color: hsl(120, 100%, 25%);
+}
+.start:hover {
+  background-color: hsl(120, 100%, 35%);
+  transform: scale(1.1);
+}
+
+.pause {
+  background-color: hsl(0, 100%, 50%);
+}
+
+.pause:hover {
+  background-color: hsl(0, 100%, 60%);
+  transform: scale(1.1);
+}
+
+.reset {
+  background-color: hsl(198, 100%, 50%);
+}
+
+.reset:hover{
+  background-color: hsl(198, 100%, 60%);
+  transform: scale(1.1);
+}
+  
